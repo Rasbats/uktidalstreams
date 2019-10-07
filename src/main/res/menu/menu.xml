@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/downloadmaps"
+        android:background="@android:drawable/dialog_frame"
+        android:title="Download Map" />
+    <item
+        android:id="@+id/settings"
+        android:background="@android:drawable/dialog_frame"
+        android:title="Settings" />
+    <item
+        android:id="@+id/filechooser"
+        android:background="@android:drawable/dialog_frame"
+        android:title="Show route (GPX)" />
+    <item
+        android:id="@+id/cleargpx"
+        android:background="@android:drawable/dialog_frame"
+        android:title="Remove route (GPX)" />
+    <item
+        android:id="@+id/about"
+        android:background="@android:drawable/dialog_frame"
+        android:title="About" />
+
+
+</menu>
+
+

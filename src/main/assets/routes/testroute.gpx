@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="EasyGPS 7.03 using GPS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topografix.com/GPX/gpx_overlay/0/3 http://www.topografix.com/GPX/gpx_overlay/0/3/gpx_overlay.xsd http://www.topografix.com/GPX/gpx_modified/0/1 http://www.topografix.com/GPX/gpx_modified/0/1/gpx_modified.xsd">
+<metadata>
+<bounds minlat="50.09974399" minlon="-5.08138748" maxlat="50.31304639" maxlon="-4.18263248"/>
+<extensions>
+<time xmlns="http://www.topografix.com/GPX/gpx_modified/0/1">2018-12-09T13:20:46.690Z</time>
+</extensions>
+</metadata>
+<wpt lat="50.31304639" lon="-4.18263248">
+<time>2018-12-09T13:19:54Z</time>
+<name>001</name>
+<type>WPT</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>001</label_text>
+</label>
+</extensions>
+</wpt>
+<wpt lat="50.09974399" lon="-5.08138748">
+<time>2018-12-09T13:20:08Z</time>
+<name>002</name>
+<type>WPT</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>002</label_text>
+</label>
+</extensions>
+</wpt>
+<rte>
+<name>testroute</name>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>testroute</label_text>
+</label>
+</extensions>
+<rtept lat="50.31304639" lon="-4.18263248">
+<time>2018-12-09T13:19:54Z</time>
+<name>001</name>
+<type>WPT</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>001</label_text>
+</label>
+</extensions>
+</rtept>
+<rtept lat="50.09974399" lon="-5.08138748">
+<time>2018-12-09T13:20:08Z</time>
+<name>002</name>
+<type>WPT</type>
+<extensions>
+<label xmlns="http://www.topografix.com/GPX/gpx_overlay/0/3">
+<label_text>002</label_text>
+</label>
+</extensions>
+</rtept>
+</rte>
+<extensions>
+</extensions>
+</gpx>

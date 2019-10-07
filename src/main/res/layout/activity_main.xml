@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/relativeLayout3">
+
+
+  <org.osmdroid.views.MapView
+      android:id="@+id/mapView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0"></org.osmdroid.views.MapView>
+
+  <Button
+      android:id="@+id/buttonCalendar"
+      style="@android:style/Widget.Button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Calendar"
+      android:visibility="visible"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:clickable="true"
+      tools:layout_width="wrap_content" />
+
+  <Button
+      android:id="@+id/buttonPrev"
+      style="@android:style/Widget.Button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="64dp"
+      android:onClick="onPrevious"
+      android:text="Prev"
+      android:visibility="visible"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/buttonNext"
+      app:layout_constraintRight_toLeftOf="@+id/buttonNext"
+      tools:clickable="true" />
+
+  <Button
+      android:id="@+id/buttonNext"
+      style="@android:style/Widget.Button"
+      android:layout_width="77dp"
+      android:layout_height="46dp"
+      android:layout_marginBottom="64dp"
+      android:onClick="onNext"
+      android:text="Next"
+      android:visibility="visible"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/buttonCalendar"
+      app:layout_constraintRight_toRightOf="@+id/buttonCalendar"
+      tools:clickable="true" />
+
+  <Button
+      android:id="@+id/myArrowButton"
+      style="@android:style/Widget.Button"
+      android:layout_width="77dp"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="108dp"
+      android:onClick="onNow"
+      android:text="Now"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <TextView
+      android:id="@+id/textTime"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginBottom="4dp"
+      android:layout_weight="0.75"
+      android:minWidth="50dp"
+      android:background="@android:color/holo_blue_bright"
+      android:text=""
+      android:textColor="#000000"
+      android:textSize="@dimen/font_size"
+      android:visibility="visible"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Spinner
+      android:id="@+id/spinPort"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="16dp"
+      android:background="@android:color/holo_blue_bright"
+      android:minWidth="60dp"
+      app:layout_constraintLeft_toLeftOf="@+id/buttonCalendar"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Spinner
+      android:id="@+id/spinHW"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="32dp"
+      android:background="@android:color/holo_blue_bright"
+      android:minWidth="60dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/spinPort" />
+
+  <Button
+      android:id="@+id/myHWButton"
+      style="@android:style/Widget.Button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="76dp"
+      android:layout_marginBottom="108dp"
+      android:onClick="onHW"
+      android:text="HW"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/myArrowButton" />
+
+    <TextView
+        android:id="@+id/textDirSpd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:layout_weight="0.75"
+        android:background="@android:color/holo_blue_bright"
+        android:minWidth="50dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textTime" />
+
+    <TextView
+        android:id="@+id/textPlusMinus"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="52dp"
+        android:maxWidth="50dp"
+        android:minWidth="50dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

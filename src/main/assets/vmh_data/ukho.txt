@@ -1,0 +1,22 @@
+<DocumentElement>
+    <Table1>
+        <STATION_NUMBER>000G</STATION_NUMBER>
+        <LATITUDE>495054</LATITUDE>
+        <LONGITUDE>-70245</LONGITUDE>
+        <PORT_NUMBER>0014</PORT_NUMBER>
+        <MINUS_6>2830603</MINUS_6>
+        <MINUS_5>3320603</MINUS_5>
+        <MINUS_4>0070905</MINUS_4>
+        <MINUS_3>0241206</MINUS_3>
+        <MINUS_2>0441206</MINUS_2>
+        <MINUS_1>0671206</MINUS_1>
+        <ZERO>0870905</ZERO>
+        <PLUS_1>1330603</PLUS_1>
+        <PLUS_2>1830904</PLUS_2>
+        <PLUS_3>2031206</PLUS_3>
+        <PLUS_4>2331206</PLUS_4>
+        <PLUS_5>2511106</PLUS_5>
+        <PLUS_6>2710704</PLUS_6>
+        <AUTHORITY>GB</AUTHORITY>
+    </Table1>
+</DocumentElement>

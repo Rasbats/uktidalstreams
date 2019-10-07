@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name"> UK Tidal Streams (Demo)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_lat">50.0</string>
+    <string name="pref_lon">-4.0</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_location">Location</string>
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="dialog_message">OK to Download the Map or use Options later</string>
+    <string name="dialog_title">No background map</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
